@@ -1,0 +1,19 @@
+#summary Readme - About - Installation - and many more
+
+= Introduction =
+
+_com_search_lucene_ is a Joomla 1.5 extension set, consisting of a search component, some search plugins and an indexing application. com-search-lucene brings Apache Lucene's indexing and searching capabilities to the Joomla! world. Native Joomla! com_search component uses plugins that directly uses databases search capabilities. This brings the database feature lock-in. For example some search plugins may use Mysql Full-Text Search ability that's available with the MyISAM storage engine but lacking with InnoDB storage engine. So sites depending on these search plugins are locked in to MyISAM and can not use innodb or any other storage engine which lacks full text search. 
+
+com_search_lucene can be used with plain php via Zend Framework's Zend-lucene library or with native java lucene via php-java-bridge. For the moment, only indexer can use native lucene library.
+
+= Structure of com_search_lucene =
+
+_com_search_lucene_ has full Joomla application integration. There is a component part to replace _com_search_ and there are plugins to change Joomla! _com_search's_ search plugins. 
+_com_search_lucene_ plugins use *SearchLucene* plugin type name.  
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
